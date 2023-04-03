@@ -1,4 +1,4 @@
-# SAP Upscale Open Payment Framework
+# AWS Integrated Payment Framework
 
 ## Description
 This repository offers sample pre-built integrations to payment gateways and methods in the form of 'Postman Collections' that can be imported into your SAP Upsclae tenant.
