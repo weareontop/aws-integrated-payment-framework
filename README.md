@@ -26,9 +26,6 @@ Read the Open Payment Framework [documentation](https://help.sap.com/viewer/0160
  
 For additional support, request you can request access to SAP Upscale Open Payment Framework slack channel via your assigned integration manager.
 
-## Troubleshooting
-
-Please refer to the [SAP Upscale Commerce Logging](https://help.sap.com/viewer/0160c41e0de84b218d05bc1185213d1d/SHIP/en-US/8a33201d95154e9c9b29b31d652e097c.html) feature.
 
 ## Contributing
 You are welcome to add collections for other gateways to this repo. 
