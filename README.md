@@ -36,6 +36,4 @@ You are welcome to add collections for other gateways to this repo.
 The repository is open for contribution. To contribute to the repository you can create a fork, and then create a Pull Request with all your changes. The administrator of the repository will look into the Pull Request and will merge your changes.
 
 ## License
-Copyright (c) 2021 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
-
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/upscale-commerce-open-payment-integration)](https://api.reuse.software/info/github.com/SAP-samples/upscale-commerce-open-payment-integration)
+Copyright (c) 2021 InfoDrive Solutions company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
