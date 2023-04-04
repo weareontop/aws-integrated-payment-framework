@@ -16,7 +16,7 @@ Replace the payment account specific secrets and variables in the Environment fi
 Import the postman collection with the updated Environment settings into your Upscale tenant as described [on SAP Help Portal](https://help.sap.com/viewer/0160c41e0de84b218d05bc1185213d1d/SHIP/en-US/7f1efa3c176746548c79d984314fee94.html).
 
 ## Known Issues
-No known issues.
+Continuously adding issues in development.
 
 ## How to obtain support
 
