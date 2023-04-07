@@ -59,3 +59,18 @@ export const editCategory = async (cId, des, status) => {
     console.log(error);
   }
 };
+
+
+export const deleteCategory = async (cId) => {
+    try {
+      let res = await axios.post(
+        `${apiURL}/api/category/delete-category`,
+        { cId },
+        Headers()
+      );
+      return res.data;
+    } catch (error) {
+      console.log(error);
+    }
+  };
+  
