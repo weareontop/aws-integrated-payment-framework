@@ -13,4 +13,12 @@ const Headers = () => {
   };
 };
 
-
+export const getAllCategory = async () => {
+    try {
+      let res = await axios.get(`${apiURL}/api/category/all-category`, Headers());
+      return res.data;
+    } catch (error) {
+      console.log(error);
+    }
+  };
+  
