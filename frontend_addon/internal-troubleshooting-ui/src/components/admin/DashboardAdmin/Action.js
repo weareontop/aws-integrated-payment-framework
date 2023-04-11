@@ -30,3 +30,36 @@ export const sliderImages = async (dispatch) => {
     console.log(error);
   }
 };
+
+export const deleteImage = async (id, dispatch) => {
+  dispatch({ type: "imageUpload", payload: true });
+  try {
+    let responseData = await postDeleteImage(id);
+    if (responseData && responseData.success) {
+      setTimeout(function () {
+        sliderImages(dispatch);
+        dispatch({ type: "imageUpload", payload: false });
+      }, 1000);
+    }
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+export const uploadImage = async (image, dispatch) => {
+  dispatch({ type: "imageUpload", payload: true });
+  let formData = new FormData();
+  formData.append("image", image);
+  console.log(formData.get("image"));
+  try {
+    let responseData = await postUploadImage(formData);
+    if (responseData && responseData.success) {
+      setTimeout(function () {
+        dispatch({ type: "imageUpload", payload: false });
+        sliderImages(dispatch);
+      }, 1000);
+    }
+  } catch (error) {
+    console.log(error);
+  }
+};
